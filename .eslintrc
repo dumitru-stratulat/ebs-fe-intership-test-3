@@ -1,0 +1,21 @@
+{
+    "env":{
+        "browser": true,
+        "es6": true,
+        "node": true,
+    },
+    "extends": ["airbnb", "airbnb/hooks"],
+    "rules":{
+        "semi": "off",
+        // "no-console": "off",
+        "no-plusplus": "off",
+        // "max-len": "off"
+        "no-alert": "warn",
+        // "no-tabs":"off"
+        "prefer-destructuring":"off",
+        "indent": "off",
+        "no-param-reassign":"off",
+        "react/jsx-filename-extension": [0]
+    }
+
+}
