@@ -1,16 +1,16 @@
-const a = 1;
+import React, { StrictMode } from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+import * as serviceWorker from './serviceWorker';
 
-function foo(name) {
-  const lastName = name;
-  return lastName;
-}
+ReactDOM.render(
+  <StrictMode>
+    <App />
+  </StrictMode>,
+  document.getElementById('root'),
+);
 
-const x = 200;
-foo('dima')
-
-const obj = {
-  a: 'dima',
-}
-
-const dst = obj.name
-console.log(dst, x, a);
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+serviceWorker.unregister();

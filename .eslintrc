@@ -9,13 +9,14 @@
         "semi": "off",
         // "no-console": "off",
         "no-plusplus": "off",
-        // "max-len": "off"
-        "no-alert": "warn",
+        "max-len": "off",
+        // "no-alert": "warn",
         // "no-tabs":"off"
-        "prefer-destructuring":"off",
+        // "prefer-destructuring":"off",
         "indent": "off",
         "no-param-reassign":"off",
-        "react/jsx-filename-extension": [0]
+        "react/jsx-filename-extension": [0],
+        "eol-last": "off"
     }
 
 }
